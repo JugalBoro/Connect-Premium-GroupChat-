@@ -1,0 +1,168 @@
+
+   
+.signup {
+    text-align: center;
+    min-height: 90vh;
+    justify-content: left;
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: flex;
+    display: flex;
+    place-items: left;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    margin-top: 0%;
+}
+.signup img{
+    align-items: right;
+    width: 50%;
+    display: flex;
+    
+}
+.signup .form {
+    width: 40%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 25px;
+    overflow: hidden;
+    align-items: left;
+    justify-content: left;
+    padding-left: 0;
+    padding-top: 0%;
+    margin-top: 0%;
+    
+}
+ 
+.signup .form form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    padding: 0 10px;
+    align-content: center;
+    align-items: center;
+}
+
+.signup .form .left img, .signup .form form {
+    height: 100%;
+    width: 100%;
+}
+
+.signup .form form .logo p {
+    color: inherit;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.signup .form form .logo img {
+    width: auto;
+    height: 100px;
+}
+img {
+    max-width: 100%;
+}
+
+img {
+    border-style: none;
+}
+
+.signup .form form p {
+    margin: 10px 0;
+    font-size: .8rem;
+    color: #fff;
+}
+
+.signup .form form .logo {
+    justify-content: center;
+    align-items: center;
+    color:#5B5EA6;
+    margin: 50px 0;
+}
+
+.signup .form form p a {
+    color: rgb(241, 245, 242);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.input-label-div {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    height: 2.5rem;
+}
+
+.input-label-div .inp {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    bottom: 0;
+    padding-top: 2%;
+    padding-left: 8px;
+    font-size: .8rem;
+    border: 1px solid rgba(27,9,9,.1);
+}
+
+* input, * select, * textarea {
+    outline: none;
+}
+
+.input-label-div .inp-label {
+    position: absolute;
+    top: 0.5rem;
+    font-size: .8rem;
+    left: 10px;
+    color: rgba(0,0,0,.5);
+    transition: all .2s;
+    pointer-events: none;
+}
+
+.input-label-div .inp:not(:placeholder-shown)+.inp-label {
+    outline: none;
+    color: #000;
+    top: 0;
+    font-size: .7rem;
+}
+
+.input-label-div .inp-label {
+    position: absolute;
+    top: 0.5rem;
+    font-size: .8rem;
+    left: 10px;
+    color: rgba(0,0,0,.5);
+    transition: all .2s;
+    pointer-events: none;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+label {
+    cursor: default;
+}
+
+.signup .form form button {
+    border-radius: 5px;
+    padding: 15px 10px;
+    width: 50%;
+    background-color: #5B5EA6;
+    color: #fff;
+    font-weight: 700;
+}
+
+button, select {
+    text-transform: none;
+}
+button, select {
+    text-transform: none;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
